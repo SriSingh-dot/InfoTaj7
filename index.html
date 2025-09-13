@@ -28,7 +28,7 @@
       padding: 15px 30px;
     }
     header h2 {
-      font-family: "Georgia", serif;
+      font-family: Georgia, serif;
       font-style: italic;
       font-weight: 600;
       font-size: 1.8rem;
@@ -46,33 +46,34 @@
       max-width: 400px;
       margin-right: 30px;
     }
-    h1 {
-      font-size: 2.5rem;
+    #home h1 {
+      font-size: 3rem;
       color: #222;
       margin: 0 0 10px;
       text-decoration: underline;
     }
-    h1 span {
+    #home h1 span {
       display: block;
       font-weight: 300;
-      font-size: 1.8rem;
+      font-size: 2.2rem;
       color: #444;
     }
-    p {
+    #home p {
       color: #555;
-      line-height: 1.6;
+      line-height: 1.8;
       margin-bottom: 20px;
+      font-size: 1.4rem;
     }
-    button {
+    #home button {
       background-color: #2c3e50;
       color: #fff;
-      padding: 10px 20px;
+      padding: 12px 24px;
       border: none;
       cursor: pointer;
       border-radius: 4px;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
-    button:hover {
+    #home button:hover {
       background-color: #1a242f;
     }
     .image-section {
@@ -95,6 +96,19 @@
       border-radius: 4px;
       font-size: 0.9rem;
     }
+    section h1 {
+      font-size: 2.5rem;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 40px;
+    }
+    section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #555;
+      margin: 20px auto;
+      max-width: 900px;
+    }
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
@@ -111,6 +125,16 @@
         justify-content: center;
       }
     }
+    footer a {
+  color: #ffd700;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
@@ -130,77 +154,77 @@
       <a href="#History"><button>Learn More</button></a>
     </div>
     <div class="image-section">
-      <img src="taj1.jpg" alt="Taj Mahal" class="full-width">
+      <img src="taj1.jpg" alt="Taj Mahal" loading="lazy">
       <div class="caption">Image of Taj Mahal</div>
     </div>
   </div>
 </section>
 
 <section id="History">
-  <h1 style="text-align:center;">History of Taj Mahal</h1>
-  <p style="font-size:1.2rem;">
-   The Taj Mahal, an enduring symbol of love and one of the world's most admired architectural masterpieces,
-   stands gracefully and majestically on the banks of the Yamuna river in Agra, India. Built during the height of the Mughal
-   Empire, its history intertwines romance, artistry, politics and devotion, making it much more than just
-   a monument. It is a testament to human creativity and emotions.
+  <h1>History of Taj Mahal</h1>
+  <p>
+    The Taj Mahal, an enduring symbol of love and one of the world's most admired architectural masterpieces,
+    stands gracefully and majestically on the banks of the Yamuna river in Agra, India. Built during the height of the Mughal
+    Empire, its history intertwines romance, artistry, politics and devotion, making it much more than just
+    a monument. It is a testament to human creativity and emotions.
   </p>
-  <p style="font-size:1.2rem;">
-   The story of the Taj Mahal begins with the Mughal Emperor Shah Jahan, who reigned from 1628 to 1658.
-   Shah Jahan was deeply in love with his wife Mumtaz Mahal, whose name translates to "The chosen one of the palace".
-   Mumtaz Mahal was not only Shah Jahan's beloved consort but also his trusted advisor and companion, accompanying him on military campaigns.
-   In 1631, while giving birth to their fourteenth child, Mumtaz Mahal tragically passed away. Her death left Shah Jahan heartbroken, and in his grief
-   he vowed to create a monument so beautiful that it would immortalize their love for eternity.
+  <p>
+    The story of the Taj Mahal begins with the Mughal Emperor Shah Jahan, who reigned from 1628 to 1658.
+    Shah Jahan was deeply in love with his wife Mumtaz Mahal, whose name translates to "The chosen one of the palace".
+    Mumtaz Mahal was not only Shah Jahan's beloved consort but also his trusted advisor and companion, accompanying him on military campaigns.
+    In 1631, while giving birth to their fourteenth child, Mumtaz Mahal tragically passed away. Her death left Shah Jahan heartbroken, and in his grief
+    he vowed to create a monument so beautiful that it would immortalize their love for eternity.
   </p>
-  <p style="font-size:1.2rem;">
-   Construction of the Taj Mahal began in 1632 and took approximately 22 years to complete, finishing around 1653.
-   It is estimated that over 20,000 artisans, craftsmen, and labourers from across the Mughal Empire and beyond
-   participated in its construction. The designs of the Taj Mahal include Persian, Islamic and Indian architecture,
-   creating a harmonious blend of styles. The marble itself was sourced from Makrana in Rajasthan, while precious
-   stones like jade, crystal, lapis lazuli and turquoise were laid using the pietra dura technique.
+  <p>
+    Construction of the Taj Mahal began in 1632 and took approximately 22 years to complete, finishing around 1653.
+    It is estimated that over 20,000 artisans, craftsmen, and labourers from across the Mughal Empire and beyond
+    participated in its construction. The designs of the Taj Mahal include Persian, Islamic and Indian architecture,
+    creating a harmonious blend of styles. The marble itself was sourced from Makrana in Rajasthan, while precious
+    stones like jade, crystal, lapis lazuli and turquoise were laid using the pietra dura technique.
   </p>
-  <p style="font-size:1.2rem;">
-   In 1983, the Taj Mahal was designated a UNESCO World Heritage Site and remains a global icon of love and
-   Mughal artistry, attracting millions of visitors every year.
+  <p>
+    In 1983, the Taj Mahal was designated a UNESCO World Heritage Site and remains a global icon of love and
+    Mughal artistry, attracting millions of visitors every year.
   </p>
 </section>
 
 <section>
-  <h1 style="text-align:center;">The Dark Reality</h1>
-  <p style="font-size:1.2rem;">
+  <h1>The Dark Reality</h1>
+  <p>
     Whenever we talk about love we think of the Taj Mahal. But some historians argue it was not purely a symbol of love.
   </p>
-  <p style="font-size:1.2rem;">
+  <p>
     Taj Mahal is indeed a beautiful giant marble structure built by Shah Jahan, the 5th Mughal Emperor. 
     Well technically, his great grandfathers looted the Indian Subcontinent and afterwards Shah Jahan said,
     "Yeah, so take some of this money back, but in return build a big, shiny, white building for me."
   </p>
-  <p style="font-size:1.2rem;">
+  <p>
     That is how the Taj Mahal was made, with the contribution of Shah Jahan. 
     But is it right to call it a symbol of love?
   </p>
   <div class="image-section">
-    <img src="taj2.jpg" alt="Taj Mahal" style="border:3px solid #091929; border-radius:8px;">
-    <div class="caption">Image</div>
+    <img src="taj2.jpg" alt="Taj Mahal" style="border:3px solid #091929; border-radius:8px;" loading="lazy">
+    <div class="caption">Taj Mahal View</div>
   </div>
 </section>
 
 <section>
-  <h1 style="text-align:center;">The Black Taj Mahal</h1>
-  <p style="font-size:1.2rem;">
+  <h1>The Black Taj Mahal</h1>
+  <p>
     The term "Black Taj Mahal" refers to a mythical black marble mausoleum that was allegedly planned by the Mughal
     Emperor Shah Jahan as a twin structure to the iconic white Taj Mahal in Agra, India. However, there is no 
     concrete evidence of its existence, and modern archaeologists consider the story a myth, possibly inspired by 
     'Mehtab Bagh', a garden located across the Yamuna River from the Taj Mahal, which offers symmetrical views.
   </p>
   <div class="image-section">
-    <img src="taj3.jpg" alt="Taj Mahal" style="border:3px solid #091929; border-radius:8px;">
-    <div class="caption">Image</div>
+    <img src="taj3.jpg" alt="Black Taj Mahal Concept" style="border:3px solid #091929; border-radius:8px;" loading="lazy">
+    <div class="caption">Myth of Black Taj Mahal</div>
   </div>
 </section>
 
 <section id="outlying">
-  <h1 style="text-align:center;">Outlying Buildings of the Taj Mahal</h1>
-  <p style="font-size:1.2rem; line-height:1.6; color:#555; margin:20px 0;">
+  <h1>Outlying Buildings of the Taj Mahal</h1>
+  <p>
     Surrounding the iconic white marble mausoleum are several outlying buildings 
     that complete the grandeur of the Taj Mahal complex. These include the red sandstone 
     mosque to the west and a jawāb (a symmetrical building) to the east, both of which 
@@ -210,7 +234,7 @@
   </p>
   <div class="image-section" style="text-align:center;">
     <img src="taj4.jpg" alt="Outlying Buildings of the Taj Mahal" 
-         style="max-width:90%; border:3px solid #091929; border-radius:8px;">
+         style="width:100%; border:3px solid #091929; border-radius:8px;" loading="lazy">
     <div class="caption">Outlying Buildings around the Taj Mahal</div>
   </div>
 </section>
@@ -218,11 +242,41 @@
 <br><br><br>
 <center><b><a href="#home"><button>Home</button></a></b></center>
 
-<footer style="text-align:center; padding:20px; background-color:#2c3e50; color:white; margin-top:40px;">
-  &copy; InfoTaj (ATHENA AWARDS) Made by Sri
+<footer style="
+  background: linear-gradient(90deg, #1a242f, #2c3e50);
+  color: #f1f1f1;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  position: relative;
+  overflow: hidden;
+">
+  <div style="margin-bottom: 10px; font-weight: bold; font-size: 1.3rem; letter-spacing: 1px;">
+     InfoTaj — [ made for -Athena Awards ]
+  </div>
+  <div style="margin-bottom: 15px; font-size: 1rem;">
+    Made by Sri
+  </div>
+  <div style="margin-top: 10px; position: relative; z-index: 1;">
+  <a href="#home">Home</a> |
+  <a href="#History">History</a> |
+  <a href="#outlying">Outlying Buildings</a>
+</div>
+
+  <div style="
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at bottom right, rgba(255,255,255,0.08), transparent 70%);
+    transform: rotate(-5deg);
+  "></div>
 </footer>
 
 </body>
 </html>
+
 
 <!--pls kindly do not feel offended as i did not mean to disrespect any culture,country or religion-->
