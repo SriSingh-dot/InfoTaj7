@@ -1,1 +1,141 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoTaj</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6eff6;
+      border-left: 3px solid #2c3e50;
+      border-right: 3px solid #2c3e50;
+      border: bottom 3px solid #2c3e50;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px 30px;
+    }
+    header h2 {
+      font-family: "Georgia", serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 60px);
+      padding: 20px;
+    }
+    .text-section {
+      max-width: 400px;
+      margin-right: 30px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #222;
+      margin: 0 0 10px;
+      text-decoration: underline;
+    }
+    h1 span {
+      display: block;
+      font-weight: 300;
+      font-size: 1.8rem;
+      color: #444;
+    }
+    p {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #1a242f;
+    }
+    .image-section {
+      position: relative;
+    }
+    .image-section img {
+      width: 400px;
+      border-radius: 8px;
+      border:3px solid #091929; }
+    .caption {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .text-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      .image-section img {
+        width: 90%;
+      }
+      header {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>InfoTaj</h2>
+  </header>
+  <div class="container">
+    <div class="text-section">
+      <h1>Taj Mahal <span>India’s Timeless Wonder</span></h1>
+      <p>
+        The Taj Mahal, one of the Seven Wonders of the World, stands as an eternal symbol 
+        of love and architectural brilliance. Located in Agra, India, its pristine white marble 
+        domes and intricate carvings captivate millions of visitors every year.
+      </p>
+      <a href="#History"><button>Learn More</button></a>
+    </div>
+    <div class="image-section">
+      <img src="taj1.jpg" alt="Taj Mahal">
+      <div class="caption">Image of Taj Mahal</div>
+    </div>
+  </div>
 
+
+
+
+  <ADDING HISTORY SECTION>
+  <section id="History" >
+  <center><i><H1> History of Taj Mahal</H1></i></center>
+  <font size="5"><p>
+  The Taj Mahal, an enduring symbol of love and one of the world's most admired architectural masterpieces,
+  stands gracefully and majestically on the banks of the Yamuna river in Agra,India. Built during the height of Mughal
+  Empire.Its history interwines romance,artistry,politics and devotion making it much more than just
+  a monument. It is a testament to human creativity and emotions.</p>
+  <p>
+  The story of the Taj Mahal begins with the Mughal Emperor Shah Jahan, who reigned from 1628 to 1658.
+  </section>
+</body>
+</html>
